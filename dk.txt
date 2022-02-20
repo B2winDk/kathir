@@ -1,0 +1,25 @@
+place=["chennai,salem,coimatore,rameshwaram,thirunelveli,ooty,madurai,thanjavur,dindigual,kanyakumari"]
+print("places to visit",places)
+n=(int(input("enter the choice upto to 10")))
+if(n==1):
+         print("chennai:marina beach,govt.musum chennai,san thome cathedral basilica,guindy national park,chennai central")
+elif(n==2):
+           print("salem:killiyur falls,yercand lake,pagoda point road,parasas ulagam,eco tourism park")
+elif(n==3):
+	   print("coimatore:siruvani water falls,kovai kondatam amusement park,pattiswari temple,hill sataion")
+elif(n==4):
+	   print("rameshwaram:ramanathaswamy temple,shivam temple,floating stones,agni theertham,house of kalam")
+elif(n==5):
+	   print("thirunelveli:nellaiappar temple,dt.saince temple,matha temple,vallandu black buck sanctuary")
+elif(n==6):
+	   print("ooty:goverment rose garden,nilgri mountain railways,tea slopes,black thundar")
+elif(n==7):
+	   print("madurai:meenakshi temple and thirumalainayak temple,alagar kovail,gandhi memorial museum")
+elif(n==8):
+	   print("thanjavur:silk weaving farm, thanjai periya kovial,vijayanager fort,")
+elif(n==9):
+	   print("dindigual:palani,kodikanail,oddanchatram market,malaikottai,dindigual fort,pachilur dam")
+elif(n==10):
+	   print("thiruvallur statue,vivekanda rock memorial,sunrise and sunset,vallakottai fort and beach,wind farms")
+else:
+     print("out of choice")
